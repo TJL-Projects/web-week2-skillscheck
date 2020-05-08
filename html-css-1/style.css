@@ -1,0 +1,102 @@
+nav {
+    background-color: rgb(143, 142, 142);
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 36px;
+    margin: 3%;
+}
+
+.links-container {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 3px 3%;
+    position: relative;
+    float: right;
+}
+
+.links {
+    margin: 15px;
+}
+
+.more {
+    position: relative;
+    top: 5vh;
+    height: 23vh;
+    background-color: black;
+    color: rgb(248, 248, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.green {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
+}
+
+.box {
+    position: relative;
+    top: 7vh;
+    border-radius: 10px;
+    height: 170px;
+    width: 170px;
+    background-color: rgb(152, 250, 217);
+}
+
+.orange {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rectangle {
+    position: relative;
+    top: 10vh;
+    height: 17vh;
+    width: 45%;
+    background-color: rgb(250, 197, 98);
+}
+
+.elephant {
+    position: relative;
+    top: 13vh;
+    height: 17vh;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.paragraph {
+    height: 15vh;
+    width: 42%;
+
+}
+
+.img {
+    height: 170px;
+    width: 300px;
+    background-color: black;
+}
+
+
+.subnav {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(78, 32, 78);
+    height: 9vh;
+    width: 100%;
+}
